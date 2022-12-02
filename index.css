@@ -1,0 +1,40 @@
+html{
+    background: #d2d2d2;
+}
+body{
+    background-color: white;
+    margin: 3% 8% 3% 8%;
+    padding: 4%;
+    overflow: scroll;
+    font-family: 'Times New Roman', serif;
+    font-size: 12;
+    text-align: justify;
+}
+
+.main-hr{
+    border-color: #A3DA8D;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 90%
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+a{
+    text-decoration: none;
+}
+.name{
+    font-size: 16;
+    text-transform: uppercase;
+}
+.sub-heading{
+    color: rgb(42, 42, 197);
+    text-transform: uppercase;
+}
+@media(max-width:954px){
+    body{
+        margin: 3% 3% 3% 3%;
+    }
+}
