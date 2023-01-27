@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>David's personnal site</title>
+  <title>David's Resume</title>
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
   <margin-div>
-    <table cellpadding="10">
+    <table cellpadding="10" class="name-heading">
       <tbody>
         <tr>
           <td><img
@@ -17,7 +17,9 @@
               alt="Chukwunonso David's picture"></td>
           <td>
             <h1 class="name">Chukwunonso David Ilonze</h1>
-            <em>Electronic Engineer / Python Developer / Full Stack Web Developer / Data Scientist</em>
+            <em>Electronic Engineer / Python Developer / Full Stack Web Developer </em>
+            <br>
+            <em><a href="https://www.linkedin.com/in/chukwunonso-ilonze/">https://www.linkedin.com/in/chukwunonso-ilonze/</a></em>
           </td>
         </tr>
       </tbody>
@@ -155,16 +157,20 @@
           <td>⭐⭐⭐</td>
         </tr>
         <tr>
+          <td>Vue.JS</td>
+          <td>⭐⭐⭐⭐</td>
+          <td>Ionic Angular</td>
+          <td>⭐⭐⭐⭐</td>
           <td>Pandas</td>
           <td>⭐⭐⭐⭐</td>
           <td>Numpy</td>
           <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
           <td>matplotlib</td>
           <td>⭐⭐⭐⭐</td>
           <td>seaborn</td>
           <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
           <td>plotly</td>
           <td>⭐⭐⭐</td>
           <td>scikit-learn</td>
@@ -340,7 +346,15 @@
     <li>Contributed to the design and development of new products and identified</li>
     </p>
     <br>
-    <hr class="main-hr"><br>
+    <footer>
+      <p id="year">
+          Copyright © 2021
+      </p>
+      <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("year").innerHTML = 'Copyright © '+ currentYear
+      </script>
+     </footer>
   </margin-div>
 </body>
 
