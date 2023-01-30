@@ -1,11 +1,21 @@
+html{
+    background: #d2d2d2;
+}
 body{
     background-color: white;
     overflow: scroll;
-    margin: 4%;
+    margin: 3% 8% 3% 8%;
+    padding: 4%;
     font-family: 'Times New Roman', serif;
-    font-size: 15px;
+    font-size: 12;
     text-align: justify;
     
+}
+.main-hr{
+    border-color: #A3DA8D;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 90%
 }
 a{
     color: rgb(107, 79, 9);
@@ -45,7 +55,7 @@ img{
     text-transform: uppercase;
 }
 .sub-heading{
-    color: rgb(74, 11, 11);
+    color: rgb(42, 42, 197);
     text-transform: uppercase;
 }
 footer{
